@@ -2,7 +2,7 @@
 
 location=$1
 resourceGroup=$2
-templateFile=$3
+templateFile=template.bicep
 
 # Create a resource group.
 echo "Creating resource group: $resourceGroup in $location..."
